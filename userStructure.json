@@ -1,0 +1,57 @@
+{
+
+
+
+
+    "user":{
+        "name": "String",
+        "email": "String",
+        "password": "String",
+        "phone": "String",
+        "faculty": "String",
+        "tickets": [
+            {
+                "ticketName": "String",
+                "universityInformation": {
+                    "UniversityName": "String",
+                    "FacultyName": "String"
+                },
+
+                "speciality": {
+                    "code": "String",
+                    "name": "String"
+                },
+
+                "subjectName": "String",
+
+                "questions": ["question1", "question2"],
+
+                "informAboutExaminer": {
+                    "lastName": "String",
+                    "firstName": "String",
+                    "middleName": "String"
+                },        
+                
+                "informAboutChairman": {
+                    "lastName": "String",
+                    "firstName": "String",
+                    "middleName": "String"
+                }
+            
+            }
+        ] 
+    }
+
+
+
+
+
+
+}    
+
+
+
+
+
+
+    

@@ -1,0 +1,30 @@
+  .grid__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+
+  }
+  .ticket__name {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .ticket__name__text {
+    margin: 0;
+    font-size: calc(calc(1vw + 1vh) * 1.05);
+  }
+
+  .ticket__name__input {
+    background-color: rgba(222, 226, 234, 1);
+    border: none;
+    border-bottom: 3px solid rgba(64, 93, 145, 1);
+    outline: none;
+    height: max-content;
+    font-size: calc(calc(1vw + 1vh) * 1.05);
+    padding-left: 10px;
+  }

@@ -1,0 +1,40 @@
+.ul__element {
+    display: flex;
+    align-items: center;
+    margin-bottom: calc((1vw + 1vh) / 1.5);
+    width: 100%;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    background-color: rgba(222, 226, 234, 1)
+  }
+  .ul__element:nth-child(4n + 1) > *:first-child::placeholder {
+    color: rgb(0, 0, 0);
+  }
+  .ul__input {
+    outline: none;
+    margin: 0;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(222, 226, 234, 1);
+  }
+  
+  .ul__input::placeholder {
+    color: rgba(58, 55, 61, 0.7);
+  }
+.delete__block {
+    color: rgba(64, 93, 145, 1);
+    background-color: rgba(217, 217, 217, 1);
+    padding: 8px;
+    margin: 0;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+  }
+  .delete__block,
+  .add__block,
+  .ul__input {
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+  }

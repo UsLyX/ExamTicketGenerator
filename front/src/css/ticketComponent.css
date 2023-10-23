@@ -1,0 +1,21 @@
+.main__block__container {
+    margin: 0;
+    margin-bottom: calc(1vw + 1vh);
+    cursor: pointer;
+  }
+
+  .main__block__image {
+    width: inherit;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .figcaption__image {
+    cursor: pointer;
+    text-align: center;
+    font: bold calc(1vw + 1vh) 'Inter', sans-serif;
+    color: rgba(64, 93, 145, 1);
+  }
+  .border{
+    border-bottom: 3px solid rgba(64, 93, 145, 1);
+  }

@@ -1,0 +1,15 @@
+.questions__flex-container{
+    display: flex; 
+    align-items: center
+  }
+
+  .questions__title {
+    font-size: calc(calc(1vw + 1vh) * 1.05);
+    margin: calc((1vw + 1vh) / 3);
+  }
+  .image__doc {
+    background-image: url(../assets/doc.png);
+    width: calc(1vw + 1vh);
+    height: calc(1vw + 1vh);
+    background-size: cover;
+  }

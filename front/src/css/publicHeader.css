@@ -1,0 +1,68 @@
+.header {
+  width: 100%;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-color: rgba(64, 93, 145, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: calc(calc(1vw + 1vh) * 0.8);
+}
+
+.nav__body {
+  margin-right: calc(calc(1vw + 1vh) * 5);
+  padding: 10px;
+  min-height: 55px;
+}
+
+.nav__text {
+  margin-right: calc(calc(1vw + 1vh) * 4);
+  border-bottom: calc(calc(1vw + 1vh) / 8.5) solid rgba(255, 255, 255, 1);
+  text-decoration-skip-ink: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.title__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.logo {
+  background-image: url(../assets/logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: calc(calc(1vw + 1vh) * 8);
+  height: calc(calc(1vw + 1vh) * 4);
+}
+
+.title__text {
+  text-align: center;
+}
+
+.title {
+  color: rgba(64, 93, 145, 1);
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: calc(calc(1vw + 1vh) * 1.2);
+}
+
+.text {
+  margin-bottom: 15px;
+
+  font-size: calc(calc(1vw + 1vh) * 1);
+  max-width: 500px;
+  line-height: normal;
+  text-align: center;
+}
+
+.vue {
+  color: rgba(103, 197, 155, 1);
+}
